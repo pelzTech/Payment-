@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <form id="paymentForm">
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" required><br>
+      
+      <label for="middleName">Middle Name:</label>
+      <input type="text" id="middleName"><br>
+      
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" required><br>
+      
+      <label for="username">Username:</label>
+      <input type="text" id="username" required><br>
+      
+      <label for="phoneNumber">Phone Number:</label>
+      <input type="tel" id="phoneNumber" required><br>
+      
+      <label for="age">Age:</label>
+      <input type="number" id="age" required><br>
+      
+      <label for="nationality">Nationality:</label>
+      <input type="text" id="nationality" required><br>
+      
+      <label for="maritalStatus">Marital Status:</label>
+      <select id="maritalStatus" required>
+        <option value="single">Single</option>
+        <option value="married">Married</option>
+        <option value="divorced">Divorced</option>
+      </select><br>
+      
+      <label for="address">Address:</label>
+      <textarea id="address" required></textarea><br>
+      
+      <label for="paymentOption">Payment Option:</label>
+      <select id="paymentOption" required>
+        <option value="paypal">PayPal</option>
+        <option value="bitcoin">Bitcoin</option>
+        <option value="bankTransfer">Bank Transfer</option>
+      </select><br>
+      
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
